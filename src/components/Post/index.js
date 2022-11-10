@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.css';
 
-function Post() {
+function Post({postId, title, date, author, highlights, image}) {
   return <article></article>;
 }
 
